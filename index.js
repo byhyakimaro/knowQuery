@@ -4,6 +4,7 @@ const rp = require('request-promise');
 const app = express();
 
 app.use(express.json());
+
 app.use((req, res, next) => {
 	res.header('Access-Control-Allow-Origin', '*');
 	res.header(
@@ -20,17 +21,12 @@ app.use((req, res, next) => {
 
 app.post('/', async (req, res) => {
 	const request = await rp({ 
-			method: 'POST',
-			uri: 'https://server.febrafar.stefaniniinspiring.com.br/singleinstance/oauth/token?grant_type=client_credentials',
-			form: 'grant_type=client_credentials',
-			headers: {
-			'Content-Type':'text/plain',
-			'Authorization':'Basic emlHUk1QWjJvTDJQcmZpb0xpa1c6WmFJT2EzWU9GYWpnbDhnbGRJZnk=',
-			'Host':'server.febrafar.stefaniniinspiring.com.br'
-		}
+			method: req.body.method,
+			uri: req.body.url,
+			form: req.body.body,
+			headers: req.body.headers
 	})
   res.send(request);
-	console.log();
 });
 
 app.listen(3000, () => {
