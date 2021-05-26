@@ -1,4 +1,4 @@
-# Jquery JS Lib
+# KnowQuery JS Lib
 
  uma lib para facilitar o uso no frontend!
 
