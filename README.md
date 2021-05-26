@@ -3,8 +3,7 @@
  uma lib para facilitar o uso no front end!
 
 ## **Funçoes**
-* Requests with post & get!
-* headers in request
+* Requests Promise!
 * query selector $
 
 
