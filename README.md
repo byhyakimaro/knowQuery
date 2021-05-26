@@ -1,5 +1,4 @@
 # KnowQuery JS Lib 
-:star: Star us on GitHub
 
 > uma lib para facilitar o uso no front end!
 
