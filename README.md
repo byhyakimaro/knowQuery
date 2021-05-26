@@ -1,7 +1,6 @@
 # KnowQuery JS Lib
 
-> uma lib para facilitar o uso no front end!
-# [![JS Lib][cult-img]][cult]
+> uma lib para facilitar o uso no front end! [![JS Lib][cult-img]][cult]
 
 ## **Funçoes**
 * Requests Promise!
