@@ -16,3 +16,7 @@
 ![Alt Text](https://i.imgur.com/OG7q05G.gif)
 
 ### Usage
+
+```
+<script src="https://knowquery.knownetworkssec.repl.co/knowQuery.js"></script>
+```
