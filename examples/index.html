@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://knowquery.knownetworkssec.repl.co/knowQuery.js"></script>
+    <title>Examples knowQuery</title>
+</head>
+<body>
+    <script>
+        (async() => {
+            const response = await $.get({
+                url: 'https://www.proxyscan.io/api/proxy?port=80&level=elite',
+                method: "GET",
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
+            $('body').innerHTML = `<p>${response[0].Ip}:${response[0].Port}</p>`;
+        })();
+    </script>
+</body>
+</html>
