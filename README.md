@@ -1,6 +1,6 @@
 # KnowQuery JS Lib
 
- uma lib para facilitar o uso no frontend!
+ uma lib para facilitar o uso no front end!
 
 ## **Funçoes**
 * Resquest with post & get!
