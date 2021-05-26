@@ -9,7 +9,7 @@
 
 ### Features
 
-- [x] Requests
+- [x] Requests Promise
 - [x] QuerySelector
 - [ ] onClick
 
