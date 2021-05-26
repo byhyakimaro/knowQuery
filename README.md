@@ -1,6 +1,7 @@
 # KnowQuery JS Lib
 
 > uma lib para facilitar o uso no front end!
+[![JS Lib][javascript]][js]
 
 ## **Funçoes**
 * Requests Promise!
