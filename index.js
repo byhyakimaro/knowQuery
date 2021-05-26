@@ -29,6 +29,10 @@ app.post('/', async (req, res) => {
   res.send(request);
 });
 
+app.get('/knowQuery.js', async (req, res) => {
+	res.sendFile( __dirname + "/lib/knowQuery.js" );
+});
+
 app.listen(3000, () => {
   console.log('server started');
 });
