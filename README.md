@@ -17,6 +17,25 @@
 
 ### Usage
 
-```
+```html
 <script src="https://knowquery.knownetworkssec.repl.co/knowQuery.js"></script>
 ```
+
+<details><summary><b>Show instructions</b></summary>
+
+* Examples
+
+```js
+  (async() => {
+      const response = await $.get({
+          url: 'https://www.proxyscan.io/api/proxy?port=80&level=elite',
+          method: "GET",
+          headers: {
+              'Content-Type': 'application/json'
+          }
+      });
+      $('body').innerHTML = `<p>${response[0].Ip}:${response[0].Port}</p>`;
+  })();
+```
+  
+</details>
