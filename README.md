@@ -4,7 +4,7 @@
 
 ## **Funçoes**
 * Requests Promise!
-* query selector $
+* QuerySelector with $
 
 
 ### Features
