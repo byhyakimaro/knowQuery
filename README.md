@@ -19,7 +19,7 @@ Site Example - [Examples](https://knowquery.knownetworkssec.repl.co/examples)
 ### Usage
 
 ```html
-<script src="https://knowquery.knownetworkssec.repl.co/knowQuery.js"></script>
+<script src="https://knowquery.knownetworkssec.repl.co/lib/knowQuery.js"></script>
 ```
 
 <details><summary><b>Examples</b></summary>
