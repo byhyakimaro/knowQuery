@@ -37,6 +37,7 @@ Site Example - [Examples](https://knowquery.knownetworkssec.repl.co/examples)
 		$('p').on('click', () => {
 			alert('knowQuery');
 		});
+		$('p').css('color', 'red');
 })();
 ```
   
