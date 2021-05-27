@@ -38,6 +38,8 @@ Site Example - [Examples](https://knowquery.knownetworkssec.repl.co/examples)
 			alert('knowQuery');
 		});
 		$('p').css('color', 'red');
+		$('p').addClass('hidden');
+		$('p').removeClass('hidden');
 })();
 ```
   
