@@ -25,15 +25,15 @@
 ```js
 (async() => {
 	const response = await $.get({
-			url: 'https://www.proxyscan.io/api/proxy?port=80&level=elite',
-			method: "GET",
-			headers: {
-					'Content-Type': 'application/json'
-			}
+		url: 'https://www.proxyscan.io/api/proxy?port=80&level=elite',
+		method: "GET",
+		headers: {
+			'Content-Type': 'application/json'
+		}
 	});
 	$('body').innerHTML = `<p>${response[0].Ip}:${response[0].Port}</p>`;
 	$('p').on('click', () => {
-			alert('knowQuery');
+		alert('knowQuery');
 	});
 })();
 ```
