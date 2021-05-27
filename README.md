@@ -30,14 +30,13 @@ Site Example - [Examples](https://knowquery.knownetworkssec.repl.co/examples)
 				url: 'https://www.proxyscan.io/api/proxy?port=80&level=elite',
 				method: "GET",
 				headers: {
-						'Content-Type': 'application/json'
+					'Content-Type': 'application/json'
 				}
 		});
-		$('body').innerHTML = `<p>${response[0].Ip}:${response[0].Port}</p>`;
+		$('body').html(`<p>${response[0].Ip}:${response[0].Port}</p>`);
 		$('p').on('click', () => {
-				alert('knowQuery');
+			alert('knowQuery');
 		});
-		$('h1').html('Ola')
 })();
 ```
   

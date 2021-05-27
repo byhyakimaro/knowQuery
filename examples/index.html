@@ -17,12 +17,10 @@
 								'Content-Type': 'application/json'
 							}
 					});
-					$('body').innerHTML = `<p>${response[0].Ip}:${response[0].Port}</p>`;
+					$('body').html(`<p>${response[0].Ip}:${response[0].Port}</p>`);
 					$('p').on('click', () => {
 						alert('knowQuery');
 					});
-					document.createElement('h1');
-					$('h1').html('Ola');
 			})();
 	</script>
 </body>
