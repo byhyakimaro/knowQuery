@@ -14,6 +14,8 @@
 
 ![Alt Text](https://i.imgur.com/OG7q05G.gif)
 
+[Examples](https://knowquery.knownetworkssec.repl.co/examples) - Examples.
+
 ### Usage
 
 ```html

@@ -33,6 +33,10 @@ app.get('/knowQuery.js', async (req, res) => {
 	res.sendFile( __dirname + "/lib/knowQuery.js" );
 });
 
+app.get('/examples', async (req, res) => {
+	res.sendFile( __dirname + "/examples/index.html" );
+});
+
 app.listen(3000, () => {
   console.log('server started');
 });
