@@ -12,7 +12,7 @@
 - [x] QuerySelector
 - [x] onClick
 
-![Alt Text](https://i.imgur.com/OG7q05G.gif)
+![Alt Text](https://i.imgur.com/txGtREu.gif)
 
 Site Example - [Examples](https://knowquery.knownetworkssec.repl.co/examples)
 
