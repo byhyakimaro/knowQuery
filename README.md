@@ -39,6 +39,7 @@ Site Example - [Examples](https://knowquery.knownetworkssec.repl.co/examples)
 	});
 	$('p').css('color', 'red');
 	$('p').addClass('hidden');
+	await sleep(2000);
 	$('p').removeClass('hidden');
 	$('p').add('a');
 	$('p').attr('src','a');
