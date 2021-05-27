@@ -18,6 +18,9 @@
                 }
             });
             $('body').innerHTML = `<p>${response[0].Ip}:${response[0].Port}</p>`;
+            $('p').on('click', () => {
+                alert('Issoae');
+            });
         })();
     </script>
 </body>
