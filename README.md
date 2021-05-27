@@ -14,7 +14,8 @@
 
 ![Alt Text](https://i.imgur.com/OG7q05G.gif)
 
-Site Example - <a href="https://knowquery.knownetworkssec.repl.co/examples" target="_blank">Example</a>
+Site Example -
+<a href="https://knowquery.knownetworkssec.repl.co/examples" target="_blank">Example</a>
 
 ### Usage
 
