@@ -26,20 +26,20 @@ Site Example - [Examples](https://knowquery.knownetworkssec.repl.co/examples)
 
 ```js
 (async() => {
-		const response = await $.get({
-				url: 'https://www.proxyscan.io/api/proxy?port=80&level=elite',
-				method: "GET",
-				headers: {
-					'Content-Type': 'application/json'
-				}
-		});
-		$('body').html(`<p>${response[0].Ip}:${response[0].Port}</p>`);
-		$('p').on('click', () => {
-			alert('knowQuery');
-		});
-		$('p').css('color', 'red');
-		$('p').addClass('hidden');
-		$('p').removeClass('hidden');
+const response = await $.get({
+		url: 'https://www.proxyscan.io/api/proxy?port=80&level=elite',
+		method: "GET",
+		headers: {
+			'Content-Type': 'application/json'
+		}
+});
+$('body').html(`<p>${response[0].Ip}:${response[0].Port}</p>`);
+$('p').on('click', () => {
+	alert('knowQuery');
+});
+$('p').css('color', 'red');
+$('p').addClass('hidden');
+$('p').removeClass('hidden');
 })();
 ```
   
