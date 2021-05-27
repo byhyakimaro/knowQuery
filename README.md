@@ -14,7 +14,7 @@
 
 ![Alt Text](https://i.imgur.com/OG7q05G.gif)
 
-Site Examples - [Examples](https://knowquery.knownetworkssec.repl.co/examples)
+Site Example - [Examples](https://knowquery.knownetworkssec.repl.co/examples)
 
 ### Usage
 
