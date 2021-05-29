@@ -28,7 +28,8 @@
 			$('p').attr('src','a');
 
 			function ft() {
-				this.innerHTML = 'on Click no elemento'
+				this.innerHTML = 'on Click no elemento';
+				console.log(this)
 			};
 			$('p').on('click', ft)
 			console.log($('p').children[0])
