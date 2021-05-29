@@ -18,15 +18,19 @@
 				}
 			});
 			$('body').html(`<p>${response[0].Ip}:${response[0].Port}</p>`);
-			$('p').on('click', () => {
-				alert('knowQuery');
-			});
 			$('p').css('color', 'red');
 			$('p').addClass('hidden');
+
 			await sleep(2000);
+
 			$('p').removeClass('hidden');
 			$('p').add('a');
 			$('p').attr('src','a');
+
+			function ft() {
+				this.innerHTML = 'onClick'
+			};
+			$('p').on('click', ft)
 		})();
 	</script>
 </body>
